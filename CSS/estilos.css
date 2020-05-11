@@ -1,0 +1,38 @@
+body {
+    background-image: url("https://www.iestecnologia.com.br/wp-content/uploads/2019/02/fundo-banner-ies.jpg");  
+     background-size: auto 100vh;
+     font-family: Arial;
+     height: 100vh; 
+   }
+   
+   .menu{
+     background-color: white;
+   }
+   
+   .menu ul{
+     display: flex;
+     justify-content: space-around; 
+   }
+   
+   .menu li{
+     list-style: none;
+   }
+   
+   a{
+     color: teal;
+     text-decoration: none;
+   }
+   
+   a:hover{
+     text-decoration: underline;
+   }
+   
+   .site_subtitle,
+   .site_title{
+     color: yellow;
+     text-align: center; 
+   }
+   
+   .site_subtitle{
+     font-style: italic;
+   }
