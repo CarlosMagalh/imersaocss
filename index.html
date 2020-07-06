@@ -2,21 +2,112 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos Magalhães</title>
     <link rel="stylesheet" href="CSS/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=DM+Mono&family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ca7d2ca3cd.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <hearder>
+    <header>
         <nav class="menu">
-          <ul>
-            <li><a href= "#">Sobre</a></li>
-            <li><a href= "#">Portifólio</a></li>
-            <li><a href= "#">Contato</a></li>
+          <ul class="container">
+            <li><a href= "#"><i class="fas fa-home"></i></a></li>
+            <li><a href= "#sobre">Sobre</a></li>
+            <li><a href= "#portfolio">Portifólio</a></li>
+            <li><a href= "#contato">Contato</a></li>
           </ul>
         </nav>
-        <h1 class="site_title">Carlos Magalhães</h1>
-        <h2 class="site_subtitle">Estudante.</h2>
-    </hearder>
+        <div class="titulo">
+          <h1 class="site_title">Carlos Magalhães</h1>
+          <h2 class="site_subtitle">Estudante;</h2>
+          <h2 class="site_subtitle">jr. programer.</h2>
+        </div>
+    </header>
+    <section class="sobre container" id="sobre">
+        <h2>Sobre</h2>
+
+        <figure class="perfil">
+          <img src="./img/eu.jpg" alt="Carlos Magalhães">
+        </figure>
+
+        <p>Me chamo Carlos Eduardo da Silva Magalhães, tenho 16 anos de idade e estudo no IFSP Jacareí, onde faço curso de informática integrado ao esino médio.</p>
+
+    </section>
+
+    <section class="portfolio container" id="portfolio">
+        <h2>Portfólio</h2>
+
+      <div class="grid">
+      
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-frente">
+                <img class="img-portfolio" src="./img/jumporlose.png" alt="Jump or Lose (Pygame)">
+            </figure>
+
+          <div class="card-verso">
+              <h3>Jump or Lose (Pygame). <a href="https://sites.google.com/view/jumporlose/p%C3%A1gina-inicial">Informações sobre o jogo.</a></h3>
+          </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+              <figure class="card-frente">
+                  <img class="img-portfolio" src="./img/escola.jpg" alt="Escola">
+              </figure>
+
+          <div class="card-verso">
+              <h3>Escola</h3>
+          </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+              <figure class="card-frente">
+                  <img class="img-portfolio" src="./img/hobby.jpg" alt="Hobby">
+              </figure>
+
+          <div class="card-verso">
+              <h3>Hobby</h3>
+          </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+              <figure class="card-frente">
+                  <img class="img-portfolio" src="./img/alura.png" alt="Imerssão CSS">
+              </figure>
+
+          <div class="card-verso">
+              <h3>Este site foi desenvolvido durante a <a href="https://www.alura.com.br/imersao-css">IMERSÃO CSS DA ALURA.</a></h3>
+          </div>
+          </div>
+        </div>
+        
+      </div>    
+    </section>
+      
+    <section class="contato container" id="contato">
+        <h2>Contato</h2>
+        <div class="grid icons">
+          <a target="_blank" href="https://github.com/CarlosMagalh">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/carlos_magalh/">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/carlos-eduardo-bba67a1a3/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a target="_blank" href="https://twitter.com/CarlosE24273552">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+    </section>
             
 </body>
 </html>
